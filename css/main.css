@@ -1,0 +1,181 @@
+body{
+    font-family: roboto;
+}
+
+nav{
+    background: #021428;
+    width: 100%;
+    height: 90px;
+}
+
+a{
+    line-height: 4;
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    margin-left:20px;
+    position: relative;
+    top: -35px;
+    left: 700px;
+}
+
+a:hover{
+    color: yellow;
+}
+
+a.active{
+    color: lime;
+}
+
+img#logo{
+    margin-left: 38px;
+}
+
+img#section1{
+    border-bottom: 10px solid #021428;
+    width: 1349px;
+}
+
+section#paragraphs {
+    margin: 100px;
+}
+
+h1#page-heading{
+    margin-left: 38px;
+    color: #021428;
+}
+
+img#services-slide{
+    margin-left: 38px;
+}
+
+section#services-paragraphs{
+    margin: 100px;
+    margin-left: 38px;
+
+}
+
+section#project1, section#project2, section#project3{
+    margin-bottom: 50px;
+}
+
+img#project1-img, img#project2-img, img#project3-img{
+    margin-left: 38px;
+}
+
+div#project1{
+    margin-left: 800px;
+    position: absolute;
+    top: 145px;
+    left: 0px;
+    width: 466px;
+}
+
+div#project2{
+    margin-left: 800px;
+    position: absolute;
+    top: 530px;
+    left: 0px;
+    width: 466px;
+}
+
+div#project3{
+    margin-left: 800px;
+    position: absolute;
+    top: 916px;
+    left: 0px;
+    width: 466px;
+}
+
+a#project1-a, a#project2-a, a#project3-a{
+    width: 100px;
+    height: 60px;
+    background: #c51a1a;
+    padding: 20px;
+    position: relative;
+    top: 4px;
+    left: -20px;
+}
+
+img#about-img{
+    margin-left: 38px;
+}
+
+div#aboutsec{
+    margin-left: 850px;
+    position: absolute;
+    top: 145px;
+    left: 0px;
+    width: 466px;
+}
+
+section#aboutsec{
+    margin-bottom: 50px;
+}
+
+form{
+    margin-left: 38px;
+}
+
+.form-control{
+    display: block;
+    width: 40%;
+    padding: 0.375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #ffffff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn-primary{
+    color: white;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover{
+    color: white;
+    background-color: blue;
+    border-color: blue;
+}
+
+.btn{
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+}
+
+div#contact-div{
+    top: 145px;
+    margin-left: 660px;
+    position: absolute;
+    left: 350px;
+    width:150px;
+}
+
+footer{
+    margin-top: 20px;
+    background: #021428;
+    width: 100%;
+    height: 70px;
+}
+
+p#footer-text{
+    color: white;
+    line-height: 70px;
+    text-align: center;
+}
